@@ -1,0 +1,28 @@
+.graph-bg {
+  background-image: url("../../Assets/Images/Group9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.graph-over {
+  overflow: hidden;
+}
+.graph-margin {
+  margin-top: 80px;
+}
+.graph-img {
+  width: 883px;
+  height: 648.02px;
+}
+
+@media (max-width: 769px) {
+  .graph-img {
+    width: 376px;
+    height: 276.07px;
+  }
+}
+@media (max-width: 1024px) {
+  .graph-img {
+    width: 500px;
+    height: 350px;
+  }
+}

@@ -1,0 +1,236 @@
+.tokenContainer {
+  overflow: hidden;
+}
+.tokens-bg {
+  background-image: url("../../Assets/Images/Group9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img {
+  animation: circle-animation 1.5s ease infinite;
+  position: absolute;
+  bottom: 28px;
+  left: 135px;
+}
+.line1 {
+  height: 250px;
+}
+.lin-bg {
+  margin-top: 120px;
+  /* border: 5px solid red; */
+}
+.txt-token {
+  position: absolute;
+  left: 220px;
+  bottom: 20px;
+}
+.mLeft {
+  margin-left: 10px;
+}
+.line {
+  position: relative;
+}
+.figure1 {
+  margin-top: 40px;
+}
+.token-name {
+  left: 1333px;
+  top: 2810px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 136.52%;
+  /* or 27px */
+
+  text-align: center;
+
+  color: #000000;
+}
+.bitberry-token {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.52%;
+  /* identical to box height, or 22px */
+  text-align: center;
+
+  color: #000000;
+}
+.text-cont {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136.52%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* or 27px */
+
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+.txt-add {
+  font-family: "Larabiefont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  /* letter-spacing: 0.150em; */
+  text-transform: uppercase;
+  color: #000000;
+  /* text-transform: uppercase; */
+  display: flex;
+  align-items: center;
+}
+.token-name-hor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 136.52%;
+}
+.bitberry-token-hor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 136.52%;
+  /* or 19px */
+
+  text-align: center;
+  color: #000000;
+}
+
+.btn-btn {
+  width: 90px;
+  height: 46px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  background: rgba(255, 248, 84, 1);
+}
+
+.btn-copy {
+  left: 100px;
+}
+
+.subHeading-token {
+  width: 701px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+  font-family: "RedFive";
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* or 28px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  color: #000000;
+}
+
+
+
+@keyframes circle-animation{
+
+  0%{ 
+    transform: scale(0,0) rotate(0deg);
+  }
+  50%{
+    transform: scale(1.5, 1.5) rotate(180deg);
+    
+  }
+  100%{
+    transform: scale(0,0) rotate(0deg);
+  }
+  
+}
+/****************************************************************************************/
+@media (min-width: 1022px) {
+  .mobile-screen1 {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-screen1 {
+    display: flex !important;
+  }
+}
+@media (max-width: 1021px) {
+  .screen-dis {
+    display: none !important;
+  }
+}
+
+@media (max-width: 769px) {
+  .subHeading-token {
+    width: 271px;
+    height: 33px;
+    background: #fff854;
+    border-radius: 30px;
+    font-family: "RedFive";
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* or 28px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+  }
+  .img {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    animation: circle-animation 1.5s ease infinite;
+  }
+}
+
+.address{
+  white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+
+/* .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  display: flex;
+  align-items: end;
+} */
+
+
+@media only screen and (min-width: 1440px) {
+.txt-add{
+  font-size: 22px !important;
+}
+.text-cont{
+  font-size: 20px;
+}
+.btn{
+  font-size: 20px;
+}
+}
+

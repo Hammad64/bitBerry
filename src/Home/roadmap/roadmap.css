@@ -1,0 +1,117 @@
+
+
+@media(min-width:769px){
+  .margin-roadmap{
+    margin-top:100px;
+  }
+  
+}
+
+
+.roadmap {
+  overflow: hidden;
+}
+.sabPara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.52%;
+  /* identical to box height, or 22px */
+
+  text-align: center;
+
+  color: #000000;
+}
+.imgStyle {
+  height: 550px;
+}
+
+
+.imgGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imgRoadmap {
+  position: absolute;
+  bottom: 28px;
+  left: 62%;
+  animation: circle-animation 1.5s ease infinite;
+}
+@keyframes circle-animation{
+
+  0%{ 
+    transform: scale(0,0) rotate(0deg);
+  }
+  50%{
+    transform: scale(1.5, 1.5) rotate(180deg);
+    
+  }
+  100%{
+    transform: scale(0,0) rotate(0deg);
+  }
+  
+}
+
+.carousel{
+  display: none !important;
+}
+@media (max-width: 480px) {
+  .imgGroup {
+    flex-direction: column;
+  }
+}
+
+.subHeading-roadmap {
+  width: 708px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* identical to box height, or 55px */
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+@media (max-width: 769px) {
+  .subHeading-roadmap {
+    width: 288px;
+    height: 33px;
+    background: #fff854;
+    border-radius: 30px;
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* identical to box height, or 55px */
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #000000;
+  }
+  .imgRoadmap {
+    position: absolute;
+    bottom: 13px;
+    left: 177px;
+    animation: circle-animation 1.5s ease infinite;
+  }
+  .carousel{
+    display: block !important;
+  }
+  .imgGroup{
+    display: none !important;
+  }
+  .cabutton2{
+    border: none;
+    background-color: #fff854;
+    border-radius: 10px;
+  }
+}

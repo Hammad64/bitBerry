@@ -1,0 +1,157 @@
+@media(min-width:769px){
+  .margin-projectdcoument{
+    margin-top:33px;
+  }
+  
+}
+
+
+.projectDocument {
+  overflow: hidden;
+}
+.imgDoc {
+  width: 300px !important;
+  margin: 35px;
+  height: 471px !important;
+}
+.imgProject {
+  position: absolute;
+  bottom: 30px;
+  left: 3%;
+  animation: circle-animation 1.5s ease infinite;
+}
+@keyframes circle-animation{
+
+  0%{ 
+    transform: scale(0,0) rotate(0deg);
+  }
+  50%{
+    transform: scale(1.5, 1.5) rotate(180deg);
+    
+  }
+  100%{
+    transform: scale(0,0) rotate(0deg);
+  }
+  
+}
+.subHeading-project {
+  width: 850px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* identical to box height, or 55px */
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  color: #000000;
+}
+
+#carouselExampleControls1 {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .subHeading-project {
+    width: 271px;
+    height: 61px;
+    background: #fff854;
+    border-radius: 30px;
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* identical to box height, or 55px */
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #000000;
+  }
+  .ProjectMobileScreen{
+    display: none !important;
+  }
+
+  .imgProject {
+    position: absolute;
+    bottom: 30px;
+    left: 2%;
+    animation: circle-animation 1.5s ease infinite;
+  }
+}
+.hover-button .hover-button--on,
+.hover-button:hover .hover-button--off {
+  display: none;
+}
+
+.hover-button:hover .hover-button--on {
+  display: inline;
+}
+.flipcart {
+  justify-content: center;
+}
+@media (max-width: 769px) {
+  .flipcart {
+    display: none !important;
+  }
+}
+/* @media (max-width:768px){
+  #carouselExampleControls1 {
+    display: none !important;
+  }
+} */
+@media only screen and (min-width: 769px) {
+  #carouselExampleControls1 {
+    display: none !important;
+  }
+  /* .ProjectMobileScreen{
+    display: none !important;
+  } */
+
+}
+@media (max-width: 790px) {
+  /* #carouselExampleControls1 {
+    display: none !important;
+  } */
+
+  .carousel-control-next{
+  bottom: -10px;
+  position: relative;
+  left: 300px;
+}
+  .cabutton {
+    border: none;
+    background-color: #fff854;
+    border-radius: 10px;
+  }
+  .catext {
+    width: 125px;
+    height: 44px;
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 109%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  }
+}
+
+@media (max-width: 320px) {
+  .imgDoc {
+    margin: 15px;
+  }
+}
+
+
+
+.mblroadmappic{
+  height: 390px !important;
+}

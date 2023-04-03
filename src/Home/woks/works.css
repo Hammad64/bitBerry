@@ -1,0 +1,162 @@
+.margin-work{
+  margin-top:37px;
+}
+
+.works {
+  overflow: hidden;
+
+}
+.line_bg{
+  background-image: url("../../Assets/Images/lineCross-01.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+.centerPlugContainer {
+  position: relative;
+  overflow: hidden;
+}
+.imgCenterPlug {
+  position: absolute;
+  width: 500px;
+  top: 34px;
+  left: 37px;
+  overflow: hidden;
+}
+/* @media (max-width: 2560px) {
+  .imgCenterPlug {
+    position: absolute;
+    width: 700px;
+    top: 28%;
+    left: 37%;
+  }
+} */
+@keyframes circle-animation{
+
+  0%{ 
+    transform: scale(0,0) rotate(0deg);
+  }
+  50%{
+    transform: scale(1.5, 1.5) rotate(180deg);
+    
+  }
+  100%{
+    transform: scale(0,0) rotate(0deg);
+  }
+  
+}
+
+.imgWork{
+  /* width: 430px !important; */
+height: 259px !important;
+overflow: hidden;
+
+}
+@media (max-width: 1440px) {
+  .imgCenterPlug {
+    position: absolute;
+    width: 500px;
+    top: 13%;
+    left: 33%;
+  }
+}
+@media (max-width: 1024px) {
+  .imgCenterPlug {
+    position: absolute;
+    width: 350px;
+    top: 18%;
+    left: 33%;
+  }
+}
+@media (max-width: 768px) {
+  .imgCenterPlug {
+    position: absolute;
+    width: 300px;
+    top: 10%;
+    left: 31%;
+  }
+}
+.mobileWorks {
+  display: none;
+}
+@media (max-width: 769px) {
+  .line_bg {
+    display: none;
+  }
+  .mobileWorks {
+    display: block;
+  }
+}
+.imgWorks {
+  position: absolute;
+  left: 17.5%;
+  bottom: 22px;
+  animation: circle-animation 1.5s ease infinite;
+}
+.imgWork {
+  height: 100%;
+}
+@media (max-width: 570px) {
+  .desktopWorks {
+    display: none;
+  }
+}
+@media (min-width: 570px) {
+  /* .mobileWorks {
+    display: none;
+  } */
+}
+
+.subHeading-work {
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* identical to box height, or 55px */
+  text-align: center;
+  letter-spacing: 0.005em;
+  position: relative;
+  color: #000000;
+  width: 708px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+}
+
+@media (max-width: 769px) {
+  .subHeading-work {
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* or 28px */
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #000000;
+    position: relative;
+    color: #000000;
+    width: 245px;
+    height: 33px;
+    background: #fff854;
+    border-radius: 30px;
+  }
+  .imgWorks {
+    position: absolute;
+    left: -8.5px;
+    bottom: 14px;
+    animation: circle-animation 1.5s ease infinite;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .imgCenterPlug {
+    position: absolute;
+    width: 500px;
+    top: 243px;
+    left: 1041px;
+  }
+}

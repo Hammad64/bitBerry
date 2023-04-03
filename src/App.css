@@ -1,0 +1,178 @@
+@import url(https://allfont.net/allfont.css?fonts=redfive);
+.App {
+  text-align: center;
+}
+@font-face {
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: normal;
+  src: local("RedFive"), url("../redfive.regular.woff") format("woff");
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.subHeading {
+  width: 714px;
+  height: 55px;
+
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* identical to box height, or 55px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  color: #000000;
+
+  position: relative;
+  /* identical to box height, or 55px */
+  width: 877px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .subHeading {
+    font-family: "RedFive", arial;
+    font-size: 26px;
+    padding: 10px 20px;
+  }
+}
+
+.squareBgImg {
+  background-image: url("../src/Assets/Images/Group9.png");
+}
+.colWise {
+  display: flex;
+  flex-direction: column;
+}
+.rowWise {
+  display: flex;
+}
+.howWeWork {
+  overflow: hidden;
+}
+@media (max-width: 769px) {
+  .zoom-in-out-box {
+    font-size: 19px !important;
+  }
+}
+/* .zoom-in-out-box {
+  font-size: 32px;
+  animation: zoom-in-zoom-out 3s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+} */
+
+/* text animation */
+
+.header {
+  display: inline-block;
+  text-align: center;
+  font-family: "RedFive";
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  /* text-shadow: 1.5px 1.5px 0 #cac6c5, -1.5px -1.5px 0 #cac6c5,
+    -1.5px -1.5px 0 #cac6c5, -1.5px 1.5px 0 #cac6c5, 1.5px -1.5px 0 #cac6c5; */
+}
+.color-bright .header {
+  color: #000000;
+}
+
+.header--pushDownOne {
+  animation: shdow 1s ease-in-out infinite 1s;
+}
+.header--pushDownTwo {
+  animation: shdow 1s ease-in-out infinite 1s;
+}
+.header--pushDownThree {
+  animation: shdow 1s ease-in-out infinite 1s;
+}
+.header--pushDown {
+  animation: shdow 2s ease-in-out infinite 2s;
+}
+@keyframes shdow {
+  0% {
+    transform: translate(0px, 0px);
+
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333,
+      -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333,
+      0.7778174593px 0.7778174593px 0 #aaaaaa,
+      1.5556349186px 1.5556349186px 0 #aaaaaa,
+      2.3334523779px 2.3334523779px 0 #aaaaaa,
+      3.1112698372px 3.1112698372px 0 #aaaaaa,
+      3.8890872965px 3.8890872965px 0 #aaaaaa,
+      4.6669047558px 4.6669047558px 0 #aaaaaa,
+      5.4447222151px 5.4447222151px 0 #aaaaaa,
+      6.2225396744px 6.2225396744px 0 #aaaaaa,
+      7.0003571337px 7.0003571337px 0 #aaaaaa,
+      7.7781745931px 7.7781745931px 0 #aaaaaa;
+  }
+  100% {
+    transform: translate(9px, 9px);
+    text-shadow: 1.5px 1.5px 0 #cac6c5, -1.5px -1.5px 0 #cac6c5,
+      -1.5px -1.5px 0 #cac6c5, -1.5px 1.5px 0 #cac6c5, 1.5px -1.5px 0 #cac6c5;
+  }
+}
+
+.Appborder {
+  border: green 2px solid;
+}
+.modal.show .modal-dialog {
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.cardTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 18px !important;
+}

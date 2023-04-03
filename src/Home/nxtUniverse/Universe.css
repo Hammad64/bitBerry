@@ -1,0 +1,337 @@
+.universeContainer {
+  overflow: hidden;
+}
+
+.bg {
+  background-image: url("../../Assets/Images/Group9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.box {
+  width: 57px;
+  height: 166px;
+  background: #000000;
+  border-radius: 8px 0px 0px 8px;
+}
+.social-box {
+  display: none;
+}
+.stickyexample {
+  display: block;
+  position: fixed;
+  top: 150px;
+  z-index: 1000000;
+  /* transition: all 2s ease 1s; */
+  transition: all 1s;
+}
+.side_icon {
+  background-color: red;
+  position: absolute;
+  right: 55px;
+  top: 30px;
+  cursor: pointer;
+}
+.side_icon span {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  bottom: 4px;
+}
+.txt-uni {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* or 55px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+}
+.TEXT-BG {
+  background-color: rgba(255, 248, 84, 1);
+}
+.pic-bg2 {
+  background-image: url("../../Assets/Images/IMG_20631.png");
+  height: 710px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-1 {
+  margin-top: 170px;
+  width: 582px;
+  height: 440px;
+}
+.p1-mobile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 136.52%;
+  text-align: left !important;
+}
+/* .p1 {
+  margin-top: 90px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-content: center;
+} */
+.p2-mobile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 136.52%;
+  text-align: left !important;
+  
+}
+/* .p2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-content: center;
+} */
+.text-title {
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* or 55px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+  position: relative;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+@media (max-width: 768px) {
+  .text-title {
+    font-size: 26px;
+    font-weight: 400;
+  }
+}
+.subHeading-title {
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* or 55px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* or 55px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+  position: relative;
+  /* identical to  height, or 55px */
+  text-align: center;
+  letter-spacing: 0.005em;
+  background: #fff854;
+  border-radius: 35px;
+  color: #000000;
+  width: 701px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+}
+
+.img-circle {
+  position: absolute;
+  bottom: 25px;
+  left: 512px;
+  animation: circle-animation 1.5s ease infinite;
+}
+@keyframes circle-animation {
+  0% {
+    transform: scale(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.5, 1.5) rotate(180deg);
+  }
+  100% {
+    transform: scale(0, 0) rotate(0deg);
+  }
+}
+.img-circle1 {
+  position: absolute;
+  bottom: 23px;
+  left: 331px;
+  animation: circle-animation 1.5s ease infinite;
+}
+/* @media screen  and (max-width: 768px) {
+  .mobile-screen {
+    display: none !important;
+  }
+} */
+
+@media (min-width: 769px) {
+  .mobile-screen {
+    display: none !important;
+  }
+} 
+@media (max-width:768px){
+  .large-screen{
+    display: none !important;
+  }
+}
+.text-para {
+  margin-top: 100px;
+  /* text-align: left; */
+  align-self: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.52%;
+  /* or 22px */
+  color: #000000;
+}
+.pos {
+  position: relative;
+}
+
+@media (max-width: 769px) {
+  .subHeading-title {
+    width: 271px;
+    height: 57px;
+    background: #fff854;
+    border-radius: 30px;
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* or 28px */
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+  }
+  .img-circle {
+    position: absolute;
+    bottom: 4px;
+    left: 246px;
+  }
+
+  .img-circle1 {
+    position: absolute;
+    bottom: 6px;
+    left: 18px;
+    animation: circle-animation 1.5s ease infinite;
+  }
+  .ext-title {
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* or 28px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #ffffff;
+
+    border: 1px solid #000000;
+  }
+}
+
+#fixed-social {
+  position: fixed;
+  top: 130px;
+  right: 0;
+}
+
+#fixed-social a {
+  color: #fff;
+  display: block;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+  margin-bottom: 1px;
+  z-index: 2;
+}
+#fixed-social a:hover > span {
+  visibility: visible;
+  right: 41px;
+  opacity: 1;
+}
+#fixed-social a span {
+  line-height: 40px;
+  right: 60px;
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  visibility: hidden;
+  transition-duration: 0.5s;
+  z-index: 1;
+  opacity: 0;
+}
+.fixed-facebook {
+  background-color: #000000;
+}
+.fixed-facebook span {
+  background-color: #000000;
+}
+.fixed-twitter {
+  background-color: #000000;
+}
+.fixed-twitter span {
+  background-color: #000000;
+}
+.fixed-gplus {
+  background-color: #000000;
+}
+.fixed-gplus span {
+  background-color: #000000;
+}
+.fixed-linkedin {
+  background-color: #000000;
+}
+.fixed-linkedin span {
+  background-color: #000000;
+}
+.fixed-instagrem {
+  background-color: #000000;
+}
+.fixed-instagrem span {
+  background-color: #000000;
+}
+.fixed-tumblr {
+  background-color: #000000;
+}
+.fixed-tumblr span {
+  background-color: #000000;
+}
+
+
+@media only screen and (min-width: 1440px) {
+  
+
+}

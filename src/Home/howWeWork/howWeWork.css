@@ -1,0 +1,142 @@
+.howWeWork,
+.howWeWorkMobile {
+  overflow: hidden;
+}
+.imgHowWeWork {
+  position: absolute;
+  bottom: 22px;
+  right: 39%;
+  animation: circle-animation 1.5s ease infinite;
+}
+@keyframes circle-animation{
+
+  0%{ 
+    transform: scale(0,0) rotate(0deg);
+  }
+  50%{
+    transform: scale(1.5, 1.5) rotate(180deg);
+    
+  }
+  100%{
+    transform: scale(0,0) rotate(0deg);
+  }
+  
+}
+.bgImageHowWe {
+  background-image: url("../../Assets/Images/bg-resize-01-01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (min-width: 1440px) {
+  .bgImageHowWe {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.txtHeading2 {
+  color: black;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 136.52%;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.imgHowWork1 {
+  height: 400px;
+}
+/* .imgHowWeWorkRight {
+  height: 427px;
+  height: auto;
+} */
+
+@media (max-width: 768px) {
+  .howWeWorkMobileHidden {
+    display: none;
+  }
+}
+.colContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.mainCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subHeading-howwe {
+  width: 574px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+  position: relative;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* identical to box height, or 55px */
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+@media (max-width: 769px) {
+  .subHeading-howwe {
+    width: 271px;
+    height: 33px;
+    background: #fff854;
+    border-radius: 30px;
+    position: relative;
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* identical to box height, or 55px */
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #000000;
+  }
+  .imgHowWeWork {
+    position: absolute;
+    bottom: 12px;
+    right: 98px;
+  }
+}
+.txtLeftALign {
+  text-align: left;
+}
+@media (min-width: 769px) {
+  .mobileScreenDis {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .largeScreenDis {
+    display: none;
+  }
+}
+.lineWidth {
+  width: 50%;
+}
+.mbl-bgWork{
+  background-image: url("../../Assets/Images/MblHowWorkBg-01.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media(max-width:768px){
+  .bgImageHowWe{
+    background-image:none !important;
+  }
+}

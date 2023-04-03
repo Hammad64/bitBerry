@@ -1,0 +1,148 @@
+.stayTouch {
+  overflow: hidden;
+}
+
+.imgStayIn {
+  position: absolute;
+  left: 229px;
+  bottom: 27px;
+  animation: circle-animation 1.5s ease infinite;
+}
+.colWise{
+  margin-top: 100px;
+}
+.img_bg_stay{
+  display: block;
+  background-image: url("../../Assets/Images/stayBgImage-01-01.png");
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  height: 590px;
+  width: 100%;
+}
+.subHeading-stayTouch {
+  width: 635px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+  position: relative;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 109%;
+  /* identical to box height, or 55px */
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+.inputField{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.inputField,
+input:focus,
+input:active,
+input:focupxs-visible {
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.52%;
+  height: 22px;
+}
+.stayRight {
+  width: 100%;
+}
+
+.btnSubmit {
+  width: 153px;
+  height: 63px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  background-color: #fff854;
+  padding: 8px 8px;
+  align-self: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.btnSubmit:hover {
+  background-color: #000;
+  border: 1px solid #fff854;
+  color: #fff854;
+}
+.stay_in_mobile{
+  display: none;
+
+}
+@media (max-width: 769px) {
+ 
+  .subHeading-stayTouch {
+    position: relative;
+    width: 300px;
+    height: 33px;
+    background: #fff854;
+    border-radius: 30px;
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    /* or 28px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+  }
+  .stay_in_mobile{
+    display: block;
+    background-image: url("../../Assets/MobileImage/StayMobileBg.png");
+    background-position-x: right;
+    background-size: 220px 380px;
+    background-repeat: no-repeat;
+  }
+  .img_bg_stay{
+    display: none;
+  }
+  .imgStayIn {
+    position: absolute;
+    left: 92px;
+    bottom: 13px;
+    animation: circle-animation 1.5s ease infinite;
+  }
+}
+@keyframes circle-animation{
+
+  0%{ 
+    transform: scale(0,0) rotate(0deg);
+  }
+  50%{
+    transform: scale(1.5, 1.5) rotate(180deg);
+    
+  }
+  100%{
+    transform: scale(0,0) rotate(0deg);
+  }
+  
+}
+
+.marginStay{
+  margin-top:20px;
+}
+
+
+@media(min-width:769px){
+  .marginStay{
+    margin-top:130px;
+  }
+  
+}
+

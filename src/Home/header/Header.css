@@ -1,0 +1,229 @@
+.nav-link {
+  left: 627px;
+  top: 43px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.nav-item {
+  margin: 5px;
+  justify-content: center;
+}
+.nav-link:hover {
+  background: linear-gradient(90deg, #fff854 49.47%, #ffffff00 114.63%);
+  /* padding-left: 34%;
+  padding-right: 1%; */
+}
+.dropdown-item:hover {
+  background: linear-gradient(-90deg, #fff854 49.47%, #ffffff00 114.63%);
+  background-color: none !important;
+  /* padding-left: 34%;
+  padding-right: 1%; */
+}
+.dropdown-item {
+  left: 801px;
+  top: 156px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #000000;
+}
+.Header-bg {
+  background-image: url("../../Assets/Images/headerBackground-01.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dropdown-menu {
+  width: 154px;
+  left: 775px;
+  top: 70px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 0% !important;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  border: 1px solid #000000;
+  border-radius: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  width: 153px;
+  height: 63px;
+  background: #fff854;
+  border-radius: 50px;
+}
+/* .btn:hover {
+  background: rgba(255, 248, 84, 1);
+} */
+.btn-largescreen {
+  width: 153px;
+  height: 63px;
+  left: 1447px;
+  top: 25px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  background: rgba(255, 248, 84, 1);
+}
+.btn-largescreen:hover {
+  background: rgba(255, 248, 84, 1);
+}
+.box-1 {
+  width: 147px;
+  height: 45px;
+  left: 352px;
+  top: 751px;
+
+  background: #000000;
+  border-radius: 8px;
+}
+
+/**************************************Media Queries*******************************************************/
+@media (min-width: 1023px) {
+  /* .btn-largescreen{
+  display: none;
+} */
+  .box-1 {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .btn-largescreen {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .large {
+    display: none !important  ;
+  }
+}
+@media (max-width: 991px) {
+  /* .btn-largescreen{
+    display: none;
+  } */
+  .btn {
+    display: none;
+  }
+  .navbarscreen {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* .nav-item:hover {
+    background-image: linear-gradient(
+      -90deg,
+      #fff854 49.47%,
+      rgba(255, 255, 255, 0) 114.63%
+    );
+  } */
+  .dropdown-menu {
+    border: none !important;
+    background: transparent !important;
+    text-align: right !important;
+  }
+  .dropdown-item {
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+  }
+  .nav-link:hover {
+    background: linear-gradient(-90deg, #fff854 49.47%, #ffffff00 114.63%);
+  }
+}
+
+@media (max-width: 1025px) {
+  .nav-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #000000;
+  }
+  .nav-link:hover {
+    background: linear-gradient(-90deg, #fff854 49.47%, #ffffff00 114.63%);
+  }
+  .dropdown-item:hover {
+    background: linear-gradient(
+      -90deg,
+      #fff854 49.47%,
+      #ffffff00 114.63%
+    ) !important;
+    background-color: none !important;
+    /* padding-left: 34%;
+    padding-right: 1%; */
+  }
+  .nav-item {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 769px) {
+  .nav-link {
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .dropdown-menu {
+    width: 170px;
+    left: 775px;
+    top: 70px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0% !important;
+  }
+  .dropdown-item {
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #000000;
+    margin-top: 10px;
+  }
+}
+
+.button-none {
+  display: none;
+}
+@media (max-width: 991px) {
+  .nav-item {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}

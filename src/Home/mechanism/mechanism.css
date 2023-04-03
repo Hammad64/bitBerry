@@ -1,0 +1,72 @@
+.mechanism {
+  overflow: hidden;
+}
+.imgMech {
+  position: absolute;
+  bottom: -16px;
+  right: 6%;
+  animation: circle-animation 0.8s ease infinite;
+}
+.subHeading-mech {
+  width: 1160px;
+  height: 57px;
+  background: #fff854;
+  border-radius: 50px;
+  position: relative;
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.085em;
+
+  color: #000000;
+}
+.imgMechenism {
+  position: absolute;
+  bottom: 28px;
+  left: 210px;
+  animation: circle-animation 0.8s ease infinite;
+}
+.eyeimg {
+  display: none !important;
+}
+
+@media (max-width: 769px) {
+  .subHeading-mech {
+    margin-top: 10px;
+    width: 279px;
+    height: 68px;
+    background: #fff854;
+    border-radius: 50px;
+    position: relative;
+    font-family: "RedFive";
+    font-family: "RedFive";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109%;
+    /* or 28px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+  }
+  .imgMechenism {
+    position: absolute;
+    bottom: 36px;
+    left: -5px;
+  }
+  .imgMech {
+    position: absolute;
+    bottom: 9px;
+    right: -18px;
+  }
+  .eyeimg {
+    display: block !important;
+  }
+}
